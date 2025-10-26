@@ -94,8 +94,8 @@ else:
         # Imprime la información de cada producto usando el contador
         print(f"\nProducto #{contador}")
         print(f"Nombre: {p['nombre']}")
-        # :.2f muestra el precio con dos decimales (por ejemplo: 3000.00)
-        print(f"Precio: ${p['precio']:.2f}")
+        # muestra el precio 
+        print(f"Precio: ${p['precio']:}")
         print(f"Cantidad disponible: {p['cantidad']}")
         contador += 1  # Aumenta el número para el siguiente producto
 

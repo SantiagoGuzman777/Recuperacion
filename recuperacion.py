@@ -38,10 +38,10 @@ while True:
                 break
             else:
                 # Si el número no es positivo, muestra error
-                print("❌ El precio debe ser un número positivo. Intente de nuevo.")
+                print(" El precio debe ser un número positivo. Intente de nuevo.")
         except ValueError:
             # Si el usuario no escribe un número válido, se muestra un error
-            print("❌ Debe ingresar un valor numérico. Intente de nuevo.")
+            print(" Debe ingresar un valor numérico. Intente de nuevo.")
 
     # --- Validar cantidad válida ---
     while True:
@@ -53,10 +53,10 @@ while True:
                 break
             else:
                 # Si la cantidad es negativa, se muestra error
-                print("❌ La cantidad no puede ser negativa. Intente de nuevo.")
+                print(" La cantidad no puede ser negativa. Intente de nuevo.")
         except ValueError:
             # Si el usuario no ingresa un número entero, se muestra error
-            print("❌ Debe ingresar un número entero. Intente de nuevo.")
+            print(" Debe ingresar un número entero. Intente de nuevo.")
 
     # --- Guardar producto ---
     # Se crea un diccionario con los datos del producto
@@ -70,7 +70,7 @@ while True:
     productos.append(producto)
 
     # Confirmación de que se guardó bien
-    print("✅ Producto agregado correctamente.\n")
+    print(" Producto agregado correctamente.\n")
 
 # === Mostrar información registrada ===
 print("\n=== INFORMACIÓN REGISTRADA ===")
@@ -99,4 +99,4 @@ else:
         print(f"Cantidad disponible: {p['cantidad']}")
         contador += 1  # Aumenta el número para el siguiente producto
 
-print("\n✅ Registro completado con éxito.")  # Mensaje final de éxito
+print ("\n Registro completado con éxito.")  # Mensaje final de éxito

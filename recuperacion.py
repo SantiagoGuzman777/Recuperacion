@@ -1,8 +1,4 @@
-# --------------------------------------------
-# Parte 2: Codificación en Python
-# Instructor: Mairon Salazar
-# Resultado de Aprendizaje 2.1
-# --------------------------------------------
+
 
 # Programa para simular la recolección de datos de clientes y productos
 # sin necesidad de usar una base de datos.
